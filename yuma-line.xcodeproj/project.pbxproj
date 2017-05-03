@@ -12,6 +12,10 @@
 		6349871C1E6046BB0071AA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6349871A1E6046BB0071AA52 /* Main.storyboard */; };
 		6349871E1E6046BB0071AA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349871D1E6046BB0071AA52 /* Assets.xcassets */; };
 		634987211E6046BB0071AA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6349871F1E6046BB0071AA52 /* LaunchScreen.storyboard */; };
+		634987291E6047030071AA52 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634987281E6047030071AA52 /* DateManager.swift */; };
+		6349872B1E6047200071AA52 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349872A1E6047200071AA52 /* CalendarCell.swift */; };
+		6349872D1E604A500071AA52 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349872C1E604A4F0071AA52 /* UIColorExtension.swift */; };
+		6349872F1E604DB00071AA52 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349872E1E604DAF0071AA52 /* NSDateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		6349871D1E6046BB0071AA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634987201E6046BB0071AA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634987221E6046BB0071AA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634987281E6047030071AA52 /* DateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		6349872A1E6047200071AA52 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		6349872C1E604A4F0071AA52 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6349872E1E604DAF0071AA52 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				634987161E6046BB0071AA52 /* AppDelegate.swift */,
 				634987181E6046BB0071AA52 /* ViewController.swift */,
+				634987281E6047030071AA52 /* DateManager.swift */,
+				6349872A1E6047200071AA52 /* CalendarCell.swift */,
+				6349872C1E604A4F0071AA52 /* UIColorExtension.swift */,
+				6349872E1E604DAF0071AA52 /* NSDateExtension.swift */,
 				6349871A1E6046BB0071AA52 /* Main.storyboard */,
 				6349871D1E6046BB0071AA52 /* Assets.xcassets */,
 				6349871F1E6046BB0071AA52 /* LaunchScreen.storyboard */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6349872F1E604DB00071AA52 /* NSDateExtension.swift in Sources */,
 				634987191E6046BB0071AA52 /* ViewController.swift in Sources */,
+				634987291E6047030071AA52 /* DateManager.swift in Sources */,
+				6349872D1E604A500071AA52 /* UIColorExtension.swift in Sources */,
 				634987171E6046BB0071AA52 /* AppDelegate.swift in Sources */,
+				6349872B1E6047200071AA52 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 				634987271E6046BB0071AA52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
